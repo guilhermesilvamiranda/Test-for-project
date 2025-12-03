@@ -326,7 +326,7 @@ def registrar_feedback(cliente_id, agendamento_id, nota, comentario=None):
 
 # ---------- Layout Streamlit ----------
 st.set_page_config(page_title="Data-Barber CRM (Expanded)", layout="wide")
-st.title("💈 Data-Barber - CRM para Barbearias (Versão Expandida)")
+st.title("💈 Data-Barber - CRM para Barbearias ")
 
 menu = [
     "Criar Cliente", "Listar Clientes", "Registrar Agendamento", "Listar Agendamentos",
